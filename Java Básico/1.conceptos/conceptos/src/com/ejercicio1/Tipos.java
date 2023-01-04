@@ -1,5 +1,9 @@
 package com.ejercicio1;
 
+/**
+ * Apuntes sobre los tipos de datos.
+ */
+
 public class Tipos {
     public static void main(String[] args) {
         // Tipos de datos

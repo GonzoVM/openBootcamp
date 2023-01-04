@@ -23,10 +23,21 @@ public class Main {
         coche2.disponibilidad = false;
         coche2.setMarca("Audi");
         coche2.setModelo("A3");
-        coche2.setMatricula("1234 BCD");
+        coche2.setMatricula("5678 FGH");
         coche2.setNumPuertas(3);
         coche2.setKilometros(2734.37);
 
+        System.out.println("El coche " + coche1.getMarca() + " " + coche1.getModelo() + "con matrícula " + coche1.getMatricula() + ":");
+        if(coche1.disponibilidad) {
+            System.out.println("está disponible, tiene " + coche1.getNumPuertas() + " puertas y lleva " + coche1.getKilometros() + " km.");
+        }
+        else System.out.println("no está disponible");
 
+
+        System.out.println("El coche " + coche2.getMarca() + " " + coche2.getModelo() + "con matrícula " + coche2.getMatricula() + ":");
+        if(coche2.disponibilidad) {
+            System.out.println("está disponible, tiene " + coche2.getNumPuertas() + " puertas y lleva " + coche2.getKilometros() + " km.");
+        }
+        else System.out.println("no está disponible");
     }
 }
