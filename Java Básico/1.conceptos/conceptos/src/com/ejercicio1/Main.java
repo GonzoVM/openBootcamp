@@ -7,7 +7,14 @@ package com.ejercicio1;
  *  - Dentro de la clase tenéis que crear el método main e imprimir todos los datos que se han visto en las sesiones.
  * Recordatorio: Los tipos de datos más comunes son int, long, double, boolean, String.
  */
+
+
 public class Main {
+
+    /**
+     * Se crean las clases Vehículo y Coche para probar los distintos tipos de datos y la herencia de clases.
+     * @param args -- argumentos del main
+     */
     public static void main(String[] args) {
         Coche coche1 = new Coche();
 

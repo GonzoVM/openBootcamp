@@ -1,7 +1,5 @@
 package com.ejercicio1;
 
-import java.util.Iterator;
-
 public class Coche extends Vehiculo {
     int numPuertas;
 
